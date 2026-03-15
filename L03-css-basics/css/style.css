@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f8f9fb;
+  color: #222;
+}
+
+/* Group selector */
+header,
+footer {
+  background-color: #e9eef5;
+  padding: 20px;
+}
+
+/* Element selectors */
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+/* Class selector */
+.card {
+  background-color: #ffffff;
+  padding: 18px;
+  margin: 20px 0;
+  border: 1px solid #d8dee9;
+  border-radius: 8px;
+}
+
+/* ID selector */
+#works {
+  border-bottom: 2px solid #d6dce5;
+  padding-bottom: 25px;
+}
+
+/* Descendant selectors */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0b57d0;
+  font-weight: bold;
+}
+
+/* Pseudo-class */
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+figcaption {
+  margin-top: 8px;
+}
+
+ul {
+  padding-left: 20px;
+}
